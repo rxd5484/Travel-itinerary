@@ -53,4 +53,31 @@ Terminal-based UI
 ![image](https://github.com/user-attachments/assets/80d30460-5ae4-4287-85ab-c71b829e4a48)
 
 
+🧠 AI Travel Planner (Local Hugging Face Version)
+This AI-powered travel assistant uses a local Hugging Face model to generate personalized travel itineraries without requiring an OpenAI API key.
+
+✅ Features (Local Mode – Option 2)
+No internet/API key required: Runs entirely using your local machine.
+
+NLP-based preference extraction: Parses user input for destination, budget, interests, travel style, and duration.
+
+Generates day-by-day itinerary: Includes activities, dining spots, and experiences with costs and time slots.
+
+AI Insights section: Explains how the suggested destination matches your stated preferences.
+
+Fallback NLP engine: Uses rule-based or local model inference if transformer models are not installed.
+
+🛠 Setup Notes
+If not installed, you'll see a warning like:
+WARNING: Transformers library not installed. Run: pip install transformers torch
+
+In that case, it will proceed using basic local NLP heuristics instead of transformers.
+
+![image](https://github.com/user-attachments/assets/281e7e67-0b5d-49b5-8053-32fde856034a)
+
+![image](https://github.com/user-attachments/assets/5f25c8f2-5899-449d-ac54-daa246e50025)
+
+![image](https://github.com/user-attachments/assets/b124eb10-ca59-4612-a3aa-254d3a8ec6fc)
+
+
 
